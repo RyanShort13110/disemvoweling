@@ -6,6 +6,8 @@
 
 
 
-function disemvowel(str) {
+function disemvowel(str){
   return str.replace(/[aeiouAEIOU]/g, '')
 }
+
+console.log(disemvowel('This is a troll attacking your comment section!'))
