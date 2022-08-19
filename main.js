@@ -7,7 +7,7 @@
 
 
 function disemvowel(str){
-  return str.replace(/[aeiouAEIOU]/g, '')
+  return str.replace(/[aeiouAEIOU]/g, '');
 }
 
-console.log(disemvowel('This is a troll attacking your comment section!'))
+console.log(disemvowel('This is a troll attacking your comment section!'));
