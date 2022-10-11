@@ -4,10 +4,9 @@
 // For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
 // Note: for this kata y isn't considered a vowel.
 
-
-
-function disemvowel(str){
-  return str.replace(/[aeiouAEIOU]/g, '')
+function disemvowel(str) {
+  console.log(str.replace(/[aeiouAEIOU]/g, ''))
 }
 
-console.log(disemvowel('This is a troll attacking your comment section!'))
+
+disemvowel('This is a troll attacking your comment section!')
